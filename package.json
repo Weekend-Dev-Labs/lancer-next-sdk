@@ -1,0 +1,33 @@
+{
+  "name": "@lancer/next",
+  "version": "1.0.0",
+  "description": "Lancer Server SDK for Next.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "clean": "rimraf ./dist",
+    "build": "rimraf ./dist && tsc --incremental false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weekend-dev-labs/lancer-next-sdk.git"
+  },
+  "keywords": [
+    "lancer"
+  ],
+  "author": "kisshan13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weekend-dev-labs/lancer-next-sdk/issues"
+  },
+  "homepage": "https://github.com/weekend-dev-labs/lancer-next-sdk#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "next": "^15.1.6",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/lancer": "github:weekend-dev-labs/lancer-types"
+  }
+}

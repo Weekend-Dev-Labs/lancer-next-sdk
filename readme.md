@@ -1,42 +1,5 @@
 # `@lancer/next`
 
-Lancer Server SDK for Next.js
-
-## Overview
-
-`@lancer/next` is the official server-side SDK for integrating Lancer with Next.js applications. It simplifies handling Lancer webhooks and authentication workflows, ensuring secure and efficient communication between your Next.js backend and Lancer's APIs.
-
-## Features
-
-- **Webhook Handling** : Securely process and verify Lancer webhook events.
-- **Authentication Flows** : Authenticate Lancer sessions and manage custom session logic.
-- **Next.js Compatibility**: Designed for use in Next.js API routes (/api).
-
-## Installation
-
-Install the SDK via npm:
-
-```bash
-npm install @lancer/next
-```
-
-## Getting Started
-
-### 1. Initialize the Lancer SDK
-Create a reusable instance of the Lancer class with your webhookSecret for signature verification. Store this in a shared module for easy access across your API routes.
-
-```typescript
-import Lancer from "@lancer/next";
-
-const lancer = new Lancer({
-  webhookSecret: "<your-lancer-webhook-secret>",
-});
-
-export default lancer;
-```
-
-# `@lancer/next`
-
 **Lancer Server SDK for Next.js**
 
 ---

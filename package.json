@@ -1,5 +1,5 @@
 {
-  "name": "@lancer/next",
+  "name": "lancer-next-sdk",
   "version": "1.0.0",
   "description": "Lancer Server SDK for Next.js",
   "main": "dist/index.js",
